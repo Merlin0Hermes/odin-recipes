@@ -6,7 +6,7 @@ h1 {
 }
 p, li {
     font-family: Arial, Helvetica, sans-serif;
-    
+    padding: 10px;
 }
 img {
     height: auto;
