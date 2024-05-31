@@ -20,6 +20,32 @@ body {
 a {
     color: red;
 }
-a:hover, a:focus {
-    color: orange;
+
+a:hover {
+    color: grey;
+}
+.index a {
+    box-sizing: border-box;
+    width: 300px;
+    height: 110px;
+    display: inline-block;
+    background-color: black;
+    padding: 40px;
+    text-align: center;
+
+}
+.index img {
+    width: 300px;
+    height: auto;
+    display: block;
+}
+
+.index div {
+    margin: 10px;
+    display: inline-block;
+    border-style: outset;
+    border-color: brown;
+}
+.index div:hover {
+    border-color: grey;
 }
