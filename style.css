@@ -43,10 +43,14 @@ a:hover, .index a:hover {
 
 .index div {
     margin: 10px;
+    margin-top: 20px;
     display: inline-block;
     border-style: outset;
     border-color: brown;
 }
 .index div:hover{
     border-color: grey;
+}
+.index {
+    text-align: center;
 }
