@@ -21,7 +21,7 @@ a {
     color: red;
 }
 
-a:hover {
+a:hover, .index a:hover {
     color: grey;
 }
 .index a {
@@ -32,6 +32,7 @@ a:hover {
     background-color: black;
     padding: 40px;
     text-align: center;
+    color: white;
 
 }
 .index img {
@@ -46,6 +47,6 @@ a:hover {
     border-style: outset;
     border-color: brown;
 }
-.index div:hover {
+.index div:hover{
     border-color: grey;
 }
